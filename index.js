@@ -45,6 +45,7 @@ const {
    execSync
 } = require("child_process")
 const axios = require('axios')
+const curve = require(libsignal/src/curve)
 const cheerio = require('cheerio')
 const {
    fromBuffer
